@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Juca Informática | Tecnologia e Segurança</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Fonte Inter -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS principal -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <header class="navbar">
+  <div class="container navbar-content">
+    <a href="index.html" class="logo">
+      <img src="assets/img/logo.png" alt="">
+      <div class="logo-text">
+        <strong>Juca Informática</strong>
+        <span>Qualidade em 1º lugar</span>
+      </div>
+    </a>
+
+    <!-- botão hamburger (visível só em mobile) -->
+    <button class="hamburger" aria-controls="site-nav" aria-expanded="false" aria-label="Abrir menu">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
+
+    <!-- menu principal (desktop) -->
+    <nav id="site-nav" class="menu" role="navigation">
+      <a href="index.html" class="active-link">Início</a>
+      <a href="servicos.html">Serviços</a>
+      <a href="produtos.html">Produtos</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+
+    
+
+  </div>
+</header>
+
+
+  <!-- CONTEÚDO PRINCIPAL DA HOME -->
+    <!-- CONTEÚDO PRINCIPAL DA HOME -->
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-content">
+
+        <!-- LADO ESQUERDO: TEXTO -->
+        <div class="hero-text">
+          <span class="hero-badge">15 anos de experiência em tecnologia</span>
+
+          <h1>
+            Soluções completas em informática, redes
+            e segurança eletrônica em Nova Andradina.
+          </h1>
+
+          <p>
+            A Juca Informática atende empresas e usuários finais com manutenção
+            de computadores, impressoras, estrutura de rede, câmeras, alarmes,
+            controle de acesso, balanças e muito mais.
+          </p>
+
+          <div class="hero-actions">
+              <a href="https://instagram.com/SEU_INSTAGRAM" 
+              class="btn btn-instagram" 
+              target="_blank">
+               <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M7.75 2C4.574 2 2 4.574 2 7.75v8.5C2 19.426 4.574 22 7.75 22h8.5c3.176 0 5.75-2.574 5.75-5.75v-8.5C22 4.574 19.426 2 16.25 2h-8.5zm0 1.5h8.5A4.25 4.25 0 0 1 20.5 7.75v8.5A4.25 4.25 0 0 1 16.25 20.5h-8.5A4.25 4.25 0 0 1 3.5 16.25v-8.5A4.25 4.25 0 0 1 7.75 3.5zm8 2a1.25 1.25 0 1 0 0 2.5a1.25 1.25 0 0 0 0-2.5zM12 7a5 5 0 1 0 0 10a5 5 0 0 0 0-10zm0 1.5a3.5 3.5 0 1 1 0 7a3.5 3.5 0 0 1 0-7z"/>
+  </svg>
+  Instagram
+              </a>
+
+            <a href="https://wa.me/5567996544981" class="btn btn-hero-primary">
+              WhatsApp
+            </a>
+            <a href="#contato-rapido" class="btn btn-hero-secondary">
+              Solicitar orçamento
+            </a>
+          </div>
+
+          <div class="hero-tags">
+            <span>Atendimento rápido</span>
+            <span>Profissionais especializados</span>
+            <span>Loja física + domicílio</span>
+          </div>
+        </div>
+
+        <!-- LADO DIREITO: CARD RESUMO -->
+        <div class="hero-card">
+          <h2>Atendimento para empresas e residências</h2>
+          <p>
+            Mercados, escritórios, academias, consultórios, fazendas e usuários comuns.
+            Tecnologia, segurança e automação em um só lugar.
+          </p>
+
+          <ul>
+            <li>Manutenção de computadores e notebooks</li>
+            <li>Impressoras: manutenção, recarga e aluguel</li>
+            <li>Redes e cabeamento estruturado</li>
+            <li>Câmeras, alarmes e controle de acesso</li>
+          </ul>
+
+          <a href="servicos.html" class="btn btn-card-full">
+            Ver todos os serviços
+          </a>
+        </div>
+
+      </div>
+    </section>
+        <!-- HERO -->
+    <section class="hero">
+      <!-- ... (hero que já fizemos) ... -->
+    </section>
+
+    <!-- SERVIÇOS PRIORITÁRIOS -->
+    <section class="section section-services" id="servicos">
+      <div class="container">
+        <header class="section-header">
+          <h2>Serviços em destaque</h2>
+          <p>
+            Os serviços mais procurados por empresas e usuários que precisam de
+            agilidade e qualidade em tecnologia.
+          </p>
+        </header>
+
+        <div class="services-grid">
+          <!-- CARD 1 -->
+          <article class="service-card">
+            <div class="service-icon">💻</div>
+            <h3>Manutenção de computadores e notebooks</h3>
+            <p>
+              Formatação, limpeza, upgrades, remoção de vírus e otimização de
+              desempenho para máquinas novas e antigas.
+            </p>
+            <ul>
+              <li>Suporte para empresas e usuários domésticos</li>
+              <li>Melhoria de performance</li>
+              <li>Atualização de hardware e software</li>
+            </ul>
+            <a href="servicos.html" class="service-link">Ver detalhes</a>
+          </article>
+
+          <!-- CARD 2 -->
+          <article class="service-card">
+            <div class="service-icon">🖨️</div>
+            <h3>Impressoras · manutenção, recarga e aluguel</h3>
+            <p>
+              Soluções completas para impressoras: conserto, manutenção preventiva,
+              recarga e planos de locação.
+            </p>
+            <ul>
+              <li>Redução de custo com impressão</li>
+              <li>Atendimento em loja e no local</li>
+              <li>Opções de aluguel para empresas</li>
+            </ul>
+            <a href="servicos.html" class="service-link">Ver detalhes</a>
+          </article>
+
+          <!-- CARD 3 -->
+          <article class="service-card">
+            <div class="service-icon">🌐</div>
+            <h3>Estrutura de rede e cabeamento estruturado</h3>
+            <p>
+              Projeto, organização e implementação de redes estáveis e seguras para
+              escritórios, lojas, mercados, academias e fazendas.
+            </p>
+            <ul>
+              <li>Cabeamento estruturado</li>
+              <li>Organização de rack e equipamentos</li>
+              <li>Wi-Fi corporativo e segmentação de rede</li>
+            </ul>
+            <a href="servicos.html" class="service-link">Ver detalhes</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+        <!-- SOLUÇÕES EM SEGURANÇA E CONTROLE -->
+    <section class="section section-solutions">
+      <div class="container">
+        <header class="section-header">
+          <h2>Soluções em segurança e automação</h2>
+          <p>
+            Projetos completos de segurança eletrônica e controle de acesso para
+            empresas, com instalação, configuração e suporte especializado.
+          </p>
+        </header>
+
+        <div class="solutions-grid">
+          <!-- CÂMERAS -->
+          <article class="solution-card">
+            <div class="solution-icon">🎥</div>
+            <h3>Câmeras de segurança (CFTV)</h3>
+            <p>
+              Instalação de sistemas de monitoramento com gravação, acesso remoto
+              e cobertura planejada para cada ambiente.
+            </p>
+            <ul>
+              <li>Projetos para empresas, lojas e fazendas</li>
+              <li>Acesso por celular e computador</li>
+              <li>Equipamentos de alta qualidade</li>
+            </ul>
+            <a href="servicos.html" class="solution-link">Saiba mais</a>
+
+          </article>
+
+          <!-- ALARMES -->
+          <article class="solution-card">
+            <div class="solution-icon">🚨</div>
+            <h3>Alarmes e sensores de segurança</h3>
+            <p>
+              Sistemas de alarme com sensores, sirenes e monitoramento para proteger
+              patrimônios e controlar acessos não autorizados.
+            </p>
+            <ul>
+              <li>Projetos personalizados por ambiente</li>
+              <li>Integração com câmeras e rede</li>
+              <li>Manutenção e atualização de sistemas</li>
+            </ul>
+            <a href="servicos.html" class="solution-link">Saiba mais</a>
+          </article>
+
+          <!-- CONTROLE DE ACESSO -->
+          <article class="solution-card">
+            <div class="solution-icon">🧾</div>
+            <h3>Controle de acesso e relógio ponto</h3>
+            <p>
+              Controle de entrada com catracas, leitores e relógios de ponto
+              para organizar o fluxo de pessoas e jornada de trabalho.
+            </p>
+            <ul>
+              <li>Catracas e leitores de cartão/biometria</li>
+              <li>Relógios de ponto homologados</li>
+              <li>Integração com sistemas de RH</li>
+            </ul>
+            <a href="servicos.html" class="solution-link">Saiba mais</a>
+          </article>
+
+          
+
+         
+
+                    <!-- AUTOMAÇÃO RESIDENCIAL E COMERCIAL -->
+          <article class="solution-card">
+            <div class="solution-icon">🏠</div>
+            <h3>Automação residencial e comercial</h3>
+            <p>
+              Controle de iluminação, ar-condicionado, som e outros equipamentos
+              por comando de voz ou celular, com cenários inteligentes para o dia a dia.
+            </p>
+            <ul>
+              <li>Cenas do tipo “bom dia” e “boa noite”</li>
+              <li>Acionamento de luzes, climatização e música</li>
+              <li>Configuração personalizada para cada ambiente</li>
+            </ul>
+
+            <a href="servicos.html" class="solution-link">Saiba mais</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+        <!-- PRODUTOS EM DESTAQUE -->
+    <section class="section section-products" id="produtos">
+      <div class="container">
+        <header class="section-header">
+          <h2>Produtos em destaque</h2>
+          <p>
+            Equipamentos de informática, segurança e automação com qualidade e suporte
+            da Juca Informática.
+          </p>
+        </header>
+
+                <!-- DESTAQUE ESPECIAL: PC GAMER -->
+        <div class="product-highlight">
+          <article class="highlight-card">
+            <div class="highlight-header">
+              <span class="highlight-badge">Oferta relâmpago</span>
+              <span class="highlight-label">PC Gamer Imperdível</span>
+            </div>
+
+            <div class="highlight-body">
+              <div class="highlight-info">
+                <h3>PC Gamer Completo</h3>
+                <p>
+                  Setup gamer de alta performance, pronto para jogos, stream e uso intenso,
+                  montado com peças selecionadas.
+                </p>
+
+                <ul class="product-specs">
+                  <li>Processador AMD Ryzen 5 5500</li>
+                  <li>Placa-mãe B550M Pichau</li>
+                  <li>Placa de vídeo RX 580 8GB</li>
+                  <li>16GB DDR4 3200MHz HyperX</li>
+                  <li>Fonte 650W Duex</li>
+                  <li>SSD NVMe 1TB Kingston</li>
+                  <li>Watercooler 240mm Gamdias</li>
+                  <li>Gabinete Aquário GCLANM Grood</li>
+                  <li>Teclado mecânico Redragon</li>
+                  <li>Mouse Attack Shark X11</li>
+                  <li>Monitor curvo 27"</li>
+                  <li>Fone USB Havit</li>
+                </ul>
+
+                <div class="highlight-actions">
+                  <a href="https://wa.me/5567996544981?text=Ol%C3%A1,%20tenho%20interesse%20no%20PC%20Gamer%20completo."
+                     class="btn btn-hero-primary">
+                    Quero esse PC Gamer
+                  </a>
+                  <a href="produtos.html" class="btn btn-hero-secondary">
+                    Ver outros produtos
+                  </a>
+                </div>
+              </div>
+
+              <div class="highlight-side">
+                <div class="highlight-tag-block">
+                  <span class="highlight-small">Configuração sob medida</span>
+                  <span class="highlight-small">Montagem profissional</span>
+                  <span class="highlight-small">Suporte da Juca Informática</span>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+
+
+        <div class="products-grid">
+      <div class="products-grid">
+
+      <!-- PC / ESTAÇÃO DE TRABALHO -->
+      <article class="product-card">
+        <span class="product-tag">PC</span>
+        <h3>PC para escritório</h3>
+        <p>
+          Computador projetado para uso administrativo, com excelente desempenho em
+          sistemas de gestão, navegação e produtividade.
+        </p>
+        <a href="produtos.html" class="product-link">Solicitar orçamento</a>
+      </article>
+
+      <!-- PERIFÉRICOS -->
+      <article class="product-card">
+        <span class="product-tag">Periféricos</span>
+        <h3>Kit teclado e mouse sem fio</h3>
+        <p>
+          Conjunto sem fio pensado para ambientes organizados, oferecendo conforto e
+          mobilidade no uso diário.
+        </p>
+        <a href="produtos.html" class="product-link">Solicitar orçamento</a>
+      </article>
+
+      <!-- IMPRESSORAS -->
+      <article class="product-card">
+        <span class="product-tag">Impressoras</span>
+        <h3>Impressora multifuncional</h3>
+        <p>
+          Impressão, cópia e digitalização em um único equipamento, ideal para
+          escritórios e empresas de todos os portes.
+        </p>
+        <a href="produtos.html" class="product-link">Solicitar orçamento</a>
+      </article>
+
+      <!-- SEGURANÇA -->
+      <article class="product-card">
+        <span class="product-tag">Segurança</span>
+        <h3>Kit de câmeras de segurança (CFTV)</h3>
+        <p>
+          Sistema completo para monitoramento interno e externo, com acesso remoto e
+          gravação contínua.
+        </p>
+        <a href="produtos.html" class="product-link">Solicitar orçamento</a>
+      </article>
+
+      
+
+    </div>
+    </div>
+    </section>
+
+        <!-- SOBRE (RESUMO) -->
+    <section class="section section-about">
+      <div class="container about-grid">
+        <div class="about-text">
+          <h2>Sobre a Juca Informática</h2>
+          <p>
+            Há 15 anos a Juca Informática oferece soluções completas em tecnologia,
+            manutenção e segurança eletrônica para empresas e usuários finais em
+            Nova Andradina e região.
+          </p>
+          <p>
+            Atendemos mercados, escritórios, academias, consultórios, fazendas e
+            usuários domésticos com foco em qualidade, rapidez e suporte técnico
+            especializado.
+          </p>
+
+          <div class="about-highlights">
+            <div class="about-pill">15 anos de experiência</div>
+            <div class="about-pill">Atendimento rápido</div>
+            <div class="about-pill">Profissionais especializados</div>
+            <div class="about-pill">Loja física + domicílio</div>
+          </div>
+
+          <a href="sobre.html" class="btn btn-hero-secondary">
+            Conhecer nossa história
+          </a>
+        </div>
+
+        <div class="about-photo">
+          <img src="assets/img/fachada.jpg"
+          alt="Fachada da Juca Informática em Nova Andradina-MS">
+        </div>
+
+      </div>
+    </section>
+
+        <!-- DEPOIMENTOS + GOOGLE REVIEWS -->
+    <section class="section section-testimonials" id="depoimentos">
+      <div class="container">
+        <header class="section-header">
+          <h2>O que nossos clientes dizem</h2>
+          <p>
+            A Juca Informática é parceira de empresas e usuários que precisam de
+            agilidade, confiança e suporte técnico de verdade.
+          </p>
+        </header>
+
+        <div class="testimonials-grid">
+          <!-- DEPOIMENTO 1 -->
+          <article class="testimonial-card">
+            <div class="testimonial-rating">★★★★★</div>
+            <p class="testimonial-text">
+              “Atendimento muito rápido e profissional. Resolveram o problema de
+              rede do escritório no mesmo dia.”
+            </p>
+            <h4>Marcos Silva</h4>
+            <span>Escritório de contabilidade</span>
+          </article>
+
+          <!-- DEPOIMENTO 2 -->
+          <article class="testimonial-card">
+            <div class="testimonial-rating">★★★★★</div>
+            <p class="testimonial-text">
+              “Confiamos à Juca Informática toda a parte de câmeras, alarmes e
+              relógio de ponto da empresa. Funcionando perfeitamente.”
+            </p>
+            <h4>Ana Paula</h4>
+            <span>Gestora de RH</span>
+          </article>
+
+          <!-- DEPOIMENTO 3 -->
+          <article class="testimonial-card">
+            <div class="testimonial-rating">★★★★★</div>
+            <p class="testimonial-text">
+              “Sempre que precisamos de manutenção em computadores ou impressoras,
+              o atendimento é ágil e bem feito.”
+            </p>
+            <h4>João Carlos</h4>
+            <span>Mercado varejista</span>
+          </article>
+        </div>
+
+        <!-- BLOCO GOOGLE REVIEWS (PLACEHOLDER) -->
+        <div class="google-reviews">
+          <h3>Avaliações no Google</h3>
+          <p>
+            Veja o que nossos clientes estão falando diretamente no Google.
+          </p>
+          <div class="google-widget-placeholder">
+            <!-- FUTURAMENTE: aqui entra o widget oficial de avaliações do Google -->
+            <span>Em breve, avaliações em tempo real do Google aqui.</span>
+          </div>
+          <a href="#" class="btn btn-hero-secondary">
+            Ver avaliações no Google
+          </a>
+        </div>
+      </div>
+    </section>
+
+        <!-- CONTATO RÁPIDO + MAPA -->
+    <section class="section section-contact-home" id="contato-rapido">
+      <div class="container contact-home-grid">
+
+        <!-- BLOCO CONTATO -->
+        <div class="contact-home-info">
+          <h2>Fale com a Juca Informática</h2>
+          <p>
+            Entre em contato para agendar uma visita, solicitar orçamento ou tirar dúvidas
+            sobre serviços e equipamentos.
+          </p>
+
+          <div class="contact-home-items">
+            <div class="contact-item">
+              <span class="contact-label">Telefone</span>
+              <span class="contact-value">3441-4981</span>
+            </div>
+            <div class="contact-item">
+              <span class="contact-label">WhatsApp</span>
+              <span class="contact-value">(67) 99654-4981</span>
+            </div>
+            <div class="contact-item">
+              <span class="contact-label">E-mail</span>
+              <span class="contact-value">joao.jucainformtica@gmail.com</span>
+            </div>
+            <div class="contact-item">
+              <span class="contact-label">Endereço</span>
+              <span class="contact-value">
+                R. Vearni Castro, 1515 – Centro, Nova Andradina – MS
+              </span>
+            </div>
+            <div class="contact-item">
+              <span class="contact-label">Horário</span>
+              <span class="contact-value">
+                Seg a Sex – 08h às 17:30 · Sáb – 08h às 12h
+              </span>
+            </div>
+          </div>
+
+          <div class="contact-home-actions">
+            <a href="https://wa.me/5567996544981?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es."
+               class="btn btn-hero-primary">
+              Falar pelo WhatsApp
+            </a>
+            <a href="contato.html" class="btn btn-hero-secondary">
+              Ver página de contato
+            </a>
+          </div>
+        </div>
+
+        <!-- BLOCO MAPA -->
+        <div class="contact-home-map">
+          <div class="map-frame">
+            <!-- FUTURAMENTE: substitui o iframe pelo mapa real -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3692.802180530851!2d-53.3506766!3d-22.247583199999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x948e7ce2891e3ae7%3A0x6c5344554cd19bf2!2sJuca%20Cartuchos%20e%20Inform%C3%A1tica!5e0!3m2!1spt-BR!2sbr!4v1763681102486!5m2!1spt-BR!2sbr" style="border:0; width:100%; height:100%; border-radius: inherit;"
+></iframe>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER simples por enquanto -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <span>© 2025 Juca Informática · Nova Andradina - MS</span>
+      <span>Desenvolvido por jvdev</span>
+    </div>
+  </footer>
+ <a href="https://wa.me/559999999999999" class="whatsapp-float" target="_blank">
+  <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
+<path fill="#fff" d="M4.868,43.303l2.694-9.835C5.9,30.59,5.026,27.324,5.027,23.979C5.032,13.514,13.548,5,24.014,5c5.079,0.002,9.845,1.979,13.43,5.566c3.584,3.588,5.558,8.356,5.556,13.428c-0.004,10.465-8.522,18.98-18.986,18.98c-0.001,0,0,0,0,0h-0.008c-3.177-0.001-6.3-0.798-9.073-2.311L4.868,43.303z"></path><path fill="#fff" d="M4.868,43.803c-0.132,0-0.26-0.052-0.355-0.148c-0.125-0.127-0.174-0.312-0.127-0.483l2.639-9.636c-1.636-2.906-2.499-6.206-2.497-9.556C4.532,13.238,13.273,4.5,24.014,4.5c5.21,0.002,10.105,2.031,13.784,5.713c3.679,3.683,5.704,8.577,5.702,13.781c-0.004,10.741-8.746,19.48-19.486,19.48c-3.189-0.001-6.344-0.788-9.144-2.277l-9.875,2.589C4.953,43.798,4.911,43.803,4.868,43.803z"></path><path fill="#cfd8dc" d="M24.014,5c5.079,0.002,9.845,1.979,13.43,5.566c3.584,3.588,5.558,8.356,5.556,13.428c-0.004,10.465-8.522,18.98-18.986,18.98h-0.008c-3.177-0.001-6.3-0.798-9.073-2.311L4.868,43.303l2.694-9.835C5.9,30.59,5.026,27.324,5.027,23.979C5.032,13.514,13.548,5,24.014,5 M24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974 M24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974 M24.014,4C24.014,4,24.014,4,24.014,4C12.998,4,4.032,12.962,4.027,23.979c-0.001,3.367,0.849,6.685,2.461,9.622l-2.585,9.439c-0.094,0.345,0.002,0.713,0.254,0.967c0.19,0.192,0.447,0.297,0.711,0.297c0.085,0,0.17-0.011,0.254-0.033l9.687-2.54c2.828,1.468,5.998,2.243,9.197,2.244c11.024,0,19.99-8.963,19.995-19.98c0.002-5.339-2.075-10.359-5.848-14.135C34.378,6.083,29.357,4.002,24.014,4L24.014,4z"></path><path fill="#40c351" d="M35.176,12.832c-2.98-2.982-6.941-4.625-11.157-4.626c-8.704,0-15.783,7.076-15.787,15.774c-0.001,2.981,0.833,5.883,2.413,8.396l0.376,0.597l-1.595,5.821l5.973-1.566l0.577,0.342c2.422,1.438,5.2,2.198,8.032,2.199h0.006c8.698,0,15.777-7.077,15.78-15.776C39.795,19.778,38.156,15.814,35.176,12.832z"></path><path fill="#fff" fill-rule="evenodd" d="M19.268,16.045c-0.355-0.79-0.729-0.806-1.068-0.82c-0.277-0.012-0.593-0.011-0.909-0.011c-0.316,0-0.83,0.119-1.265,0.594c-0.435,0.475-1.661,1.622-1.661,3.956c0,2.334,1.7,4.59,1.937,4.906c0.237,0.316,3.282,5.259,8.104,7.161c4.007,1.58,4.823,1.266,5.693,1.187c0.87-0.079,2.807-1.147,3.202-2.255c0.395-1.108,0.395-2.057,0.277-2.255c-0.119-0.198-0.435-0.316-0.909-0.554s-2.807-1.385-3.242-1.543c-0.435-0.158-0.751-0.237-1.068,0.238c-0.316,0.474-1.225,1.543-1.502,1.859c-0.277,0.317-0.554,0.357-1.028,0.119c-0.474-0.238-2.002-0.738-3.815-2.354c-1.41-1.257-2.362-2.81-2.639-3.285c-0.277-0.474-0.03-0.731,0.208-0.968c0.213-0.213,0.474-0.554,0.712-0.831c0.237-0.277,0.316-0.475,0.474-0.791c0.158-0.317,0.079-0.594-0.04-0.831C20.612,19.329,19.69,16.983,19.268,16.045z" clip-rule="evenodd"></path>
+</svg>
+</a>
+
+
+  <!-- JS (pode deixar vazio por enquanto) -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
+
